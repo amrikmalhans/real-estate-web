@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const token = `dfd8fde05467d73157be262ada5346b0c24d9cd786d86adc61064783e471cd62cc10a618bf97f05c9f2e4165b7b0ad42f53e4bbcae792cbeb4682967fbdd863aab33751f213d15d3a6afbf2d6a960fd3a948d34e7e15330dc913099249e70920c7e15d5e0e1c9b851fab7d661b2abcdd2be5699203fb8942ac386d55494d6be3`;
+      const token = ``;
 
       const data = await axios.get(`http://localhost:1337/api/properties`, {
         headers: {
